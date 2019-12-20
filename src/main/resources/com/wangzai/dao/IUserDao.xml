@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.wangzai.dao.IUserDao">
+    <!--配置查询所有-->
+    <select id="findAll" resultType="com.wangzai.admin.User">
+        select * from user
+    </select>
+</mapper>
